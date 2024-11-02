@@ -258,13 +258,13 @@ INSERT INTO shoe_products_keyed
 ### Flink Jobs
 
 ```shell
-confluent flink statement list --cloud aws --region eu-central-1
+confluent flink statement list --cloud azure --region westeurope
 ```
 
 How many are running?
 
 ```shell
-confluent flink statement list --cloud aws --region eu-central-1 --status running
+confluent flink statement list --cloud azure --region westeurope --status running
 ```
 
 Check CFUs in use:
@@ -434,7 +434,7 @@ SELECT * from shoe_promotions;
 How many flink jobs are running?
 
 ```shell
-confluent flink statement list --cloud aws --region eu-central-1 --status running
+confluent flink statement list --cloud azure --region westeurope --status running
 ```
 
 Check CFUs in use:
